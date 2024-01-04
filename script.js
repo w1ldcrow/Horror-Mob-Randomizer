@@ -7,8 +7,8 @@ function randomSelect(array) {
 function generateMob() {
 
   const attributes = {
+    "image": ["assets/ant.png", "assets/booney.png", "assets/crywolf.png", "assets/deer.png", "assets/deer2.png", "assets/devitalizer.png","assets/dog.png","assets/flower.png", "assets/nurse.png","assets/ragno.png","assets/scary.png","assets/tick.png","assets/void.png","assets/wendigo.png","assets/wire.png"],
     "personality": ["prefer to attack isolated players", "prefer to attack players in groups", "prefer to avoid players", "greedy for loot", "likes to play with player's minds", "tries to follow other monsters", "moves a lot around the map", "have favorite places" ],
-    "appearance": ["demon like", "human like", "formless", "animal like"],
     "aggro": ["relatively passive", "always aggressive"],
     "sound sensitivity": ["non", "very low", "low", "medium", "high", "very high"],
     "sensitivity to light": ["non", "very low", "low", "medium", "high", "very high"],
@@ -30,6 +30,7 @@ function generateMob() {
   for (const attribute in selectedAttribute) {
     htmlResult += `<p><strong>${attribute}:</strong> ${selectedAttribute[attribute]}</p>`;
   }
+  htmlResult += `<img src="${selectedAttribute['image']}" alt="Mob Image">`;
 
   const domResult = document.getElementById("generated_mob");
 
