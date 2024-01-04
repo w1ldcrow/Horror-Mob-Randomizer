@@ -7,7 +7,7 @@ function randomSelect(array) {
 function generateMob() {
 
   const attributes = {
-    "personality": ["prefer to attack isolated players", "prefer to attack players in groups", "prefer to avoid players", "greedy for loot", "likes to play with player's minds" ],
+    "personality": ["prefer to attack isolated players", "prefer to attack players in groups", "prefer to avoid players", "greedy for loot", "likes to play with player's minds", "tries to follow other monsters", "moves a lot around the map", "have favorite places" ],
     "appearance": ["demon like", "human like", "formless", "animal like"],
     "aggro": ["relatively passive", "always aggressive"],
     "sound sensitivity": ["non", "very low", "low", "medium", "high", "very high"],
