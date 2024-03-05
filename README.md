@@ -1,6 +1,6 @@
 # Horror Mob Randomizer
 
-The Mob Name Randomizer project aimed to randomize various characteristics or images of monsters to generate new monster ideas for the horror game Midnight Tales, which is currently in development.
+The Horror Mob Randomizer project aimed to randomize various characteristics or images of monsters to generate new monster ideas for the horror game Midnight Tales, which is currently in development.
 
 ## Project Overview
 
