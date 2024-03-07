@@ -10,7 +10,7 @@ The `randomSelect(array)` function is used to randomly select an element from an
 
 ## Usage
 
-To use the Mob Name Randomizer, simply call the `generateMob()` function. This function selects random attributes for a monster and displays them, along with an associated image, on the web page.
+To use the Mob Randomizer, simply call the `generateMob()` function. This function selects random attributes for a monster and displays them, along with an associated image, on the web page.
 
 ## Project Link
 
